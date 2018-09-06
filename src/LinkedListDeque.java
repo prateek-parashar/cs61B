@@ -27,7 +27,7 @@ public class LinkedListDeque <rocket>{
 
     /** Constructor of the Deque data structure is cyclic in nature */
     public LinkedListDeque() {
-        sentinel = new <Integer> Node ( null, null, null);
+        sentinel = new Node ( null, null, null);
         sentinel.next = sentinel;
         sentinel.prev = sentinel;
     }
@@ -116,5 +116,6 @@ public class LinkedListDeque <rocket>{
         L.printDeque();
         System.out.println("");
         System.out.print(L.get(4));
+
     }
 }
