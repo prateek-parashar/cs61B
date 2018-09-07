@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b972526c-fd3c-47e4-9621-821f7aa42dbe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javalib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing/TestSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Testing/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing/Sort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,17 +22,8 @@
       <file leaf-file-name="TestSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="63">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -137,7 +125,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestSort">
+    <configuration name="TestSort.testFindSmallest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSort" />
+      <option name="METHOD_NAME" value="testFindSmallest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -148,6 +153,57 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSort" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestSort.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSort" />
+      <option name="METHOD_NAME" value="testSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestSort.testSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSort" />
+      <option name="METHOD_NAME" value="testSwap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -187,9 +243,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.TestSort" />
+      <item itemvalue="JUnit.TestSort.testSwap" />
+      <item itemvalue="Android JUnit.TestSort.testFindSmallest" />
+      <item itemvalue="JUnit.TestSort" />
+      <item itemvalue="JUnit.TestSort.testSort" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSort" />
+        <item itemvalue="JUnit.TestSort.testSort" />
         <item itemvalue="Application.TestSort" />
+        <item itemvalue="Android JUnit.TestSort.testFindSmallest" />
+        <item itemvalue="JUnit.TestSort.testSwap" />
       </list>
     </recent_temporary>
   </component>
@@ -211,8 +278,47 @@
       <option name="project" value="LOCAL" />
       <updated>1536321409583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed implementation of the test based development">
+      <created>1536339107818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536339107818</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSort_testSort - 2018.09.07 at 22h 52m 56s.xml">
+      <configuration name="TestSort.testSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort_testSort - 2018.09.07 at 22h 53m 12s.xml">
+      <configuration name="TestSort.testSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort - 2018.09.07 at 22h 53m 16s.xml">
+      <configuration name="TestSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort_testSort - 2018.09.07 at 22h 53m 25s.xml">
+      <configuration name="TestSort.testSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort_testSort - 2018.09.07 at 22h 53m 37s.xml">
+      <configuration name="TestSort.testSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort - 2018.09.07 at 22h 53m 43s.xml">
+      <configuration name="TestSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort_testSort - 2018.09.07 at 22h 54m 57s.xml">
+      <configuration name="TestSort.testSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort_testSort - 2018.09.07 at 22h 55m 06s.xml">
+      <configuration name="TestSort.testSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort - 2018.09.07 at 22h 55m 24s.xml">
+      <configuration name="TestSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort - 2018.09.07 at 22h 56m 05s.xml">
+      <configuration name="TestSort" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -226,7 +332,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32884902" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41405082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39013454" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.36621824" />
       <window_info anchor="bottom" id="Style Checker" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.64424515" />
@@ -238,7 +344,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.81464875" />
-      <window_info id="Favorites" order="2" sideWeight="0.5007474" side_tool="true" visible="true" weight="0.21083455" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007474" side_tool="true" weight="0.21083455" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -278,7 +384,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing using Ad-Hoc implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing using Ad-Hoc implementation" />
+    <MESSAGE value="completed implementation of the test based development" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed implementation of the test based development" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="63">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
