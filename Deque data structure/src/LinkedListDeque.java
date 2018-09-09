@@ -1,23 +1,24 @@
 /** Implementation of a Deque data structure */
-public class LinkedListDeque <rocket>{
+public class LinkedListDeque<T> {
     /** Naked recursive data structure hidden from the user */
     private class Node {
-        rocket data;
+        T data;
         Node next;
         Node prev;
 
         // Constructor
-        public Node(rocket x, Node n, Node p) {
+        Node(T x, Node n, Node p) {
             data = x;
             next = n;
             prev = p;
         }
         /** Returns the size of the internal implementation */
-        private rocket get(int index) {
+        private T get(int index) {
             if (index == 0) {
                 return this.data;
+            } else {
+                return this.next.get(index - 1);
             }
-            else return this.next.get(index - 1);
         }
     }
 
@@ -27,20 +28,20 @@ public class LinkedListDeque <rocket>{
 
     /** Constructor of the Deque data structure is cyclic in nature */
     public LinkedListDeque() {
-        sentinel = new Node ( null, null, null);
+        sentinel = new Node(null, null, null);
         sentinel.next = sentinel;
         sentinel.prev = sentinel;
     }
 
     /** Add an element at the from of the Deque */
-    public void addFirst(rocket x) {
+    public void addFirst(T x) {
         sentinel.next = new Node(x, sentinel.next, sentinel);
         sentinel.next.next.prev = sentinel.next;
         size++;
     }
 
     /** Add an element at the end of the Deque */
-    public void addLast(rocket x) {
+    public void addLast(T x) {
         sentinel.prev = new Node(x, sentinel, sentinel.prev);
         sentinel.prev.prev.next = sentinel.prev;
         size++;
@@ -51,9 +52,8 @@ public class LinkedListDeque <rocket>{
         if (this.size == 0) {
             return true;
         }
-        else {
-            return false;
-        }
+
+        return false;
     }
 
     /** Returns the size of the Deque */
@@ -71,11 +71,10 @@ public class LinkedListDeque <rocket>{
     }
 
     /** Removes and returns the first item of the Deque */
-    public rocket removeFirst() {
+    public T removeFirst() {
         if (size == 0) {
             return null;
-        }
-        else {
+        } else {
             Node p = sentinel.next;
             sentinel.next = p.next;
             p.next.prev = sentinel;
@@ -85,11 +84,10 @@ public class LinkedListDeque <rocket>{
     }
 
     /** Returns and removes the last element of the Deque */
-    public rocket removeLast() {
+    public T removeLast() {
         if (size == 0) {
             return null;
-        }
-        else {
+        } else {
             Node p = sentinel.prev;
             sentinel.prev = p.prev;
             p.prev.next = sentinel;
@@ -98,16 +96,26 @@ public class LinkedListDeque <rocket>{
         }
     }
 
-    /** Returns the item at a given index */
-    public rocket get(int x) {
+    /** Returns the item at a given index using Iteration */
+    public T get(int x) {
+        Node p = sentinel.next;
+        while (x != 0) {
+            p = p.next;
+            x--;
+        }
+        return p.data;
+    }
+
+    /** Returns the item at a given index using Recursion*/
+    public T getRecursive(int x) {
         if (size == 0) {
             return null;
         }
         return sentinel.next.get(x);
     }
 
-    public static void main (String[] args){
-        LinkedListDeque <Integer> L = new LinkedListDeque <>();
+    public static void main(String[] args) {
+        LinkedListDeque<Integer> L = new LinkedListDeque<>();
         L.addFirst(15);
         L.addFirst(10);
         L.addFirst(5);
@@ -115,7 +123,7 @@ public class LinkedListDeque <rocket>{
         L.addLast(30);
         L.printDeque();
         System.out.println("");
+        System.out.print(L.getRecursive(4));
         System.out.print(L.get(4));
-
     }
 }
